@@ -55,3 +55,10 @@ let times = [
     derrotas: 19,
 }
 ];
+
+function verTimes(){
+    times.forEach((time) => {
+        console.log(time.nome + "-" + time.goleiro + "(goleiro)" + time.alaDireita + "(alaDireita)" + time.alaEsquerda + "(alaEquerda)" + time.pivô + "(pivô)" + time.fixo + "(fixo)" + time.técnico + "(técnico)" + time.vitórias + "(vitórias)" + time.derrotas + "(derrotas)")
+
+    });
+}
